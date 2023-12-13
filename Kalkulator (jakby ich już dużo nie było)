@@ -1,0 +1,17 @@
+a= int(input("podaj liczbę"))
+b= int(input("podaj drugą liczbę"))
+print("1 dla dodawania")
+print("2 dla odejmowania")
+print("3 dla mnożenia")
+print("4 dla dzielenia")
+wynik =input("wybierz liczbę od 1-4")
+if wynik =="1":
+    print(a+b)
+elif wynik =="2":
+    print(a-b)
+elif wynik =="3":
+    print(a*b)
+elif wynik =="4":
+    print(a/b)
+else:
+    print("nie")
