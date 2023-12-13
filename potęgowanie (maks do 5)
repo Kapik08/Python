@@ -1,0 +1,16 @@
+a= int(input())
+potęga= input("do jakiej potęgi")
+if potęga =="0":
+    print("1")
+if potęga =="1":
+    print(a)
+elif potęga =="2":
+    print(a*a)
+elif potęga =="3":
+    print(a*a*a)
+elif potęga =="4":
+    print(a*a*a*a)
+elif potęga =="5":
+    print(a*a*a*a*a)
+else:
+    print("out of budget")
