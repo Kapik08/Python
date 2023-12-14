@@ -1,4 +1,4 @@
-a= int(input())
+a= int(input("podaj liczbę"))
 potęga= input("do jakiej potęgi")
 if potęga =="0":
     print("1")
