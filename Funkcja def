@@ -1,0 +1,5 @@
+def dod(a,b):
+    return (a+b)
+a=int(input())
+b=int(input())
+print(dod(a,b))
