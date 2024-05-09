@@ -1,0 +1,32 @@
+import time
+rok=2024
+while True:
+    imie= input("Podaj swoje imię i Nazwisko: ")
+    if imie != "":
+        break 
+while True:
+    wiek=input("Podaj ile masz lat: ")
+    if wiek != "":
+        break
+wiek_int=int(wiek)
+if wiek_int < 18:
+    for seconds in range(0,10):
+        print("nie powinno cie tu być")
+        time.sleep(1)
+elif wiek_int>18 or wiek_int==18:
+    while True:
+        dom=input("Podaj ulicę twojego zakwaterowania: ")
+        if dom !="":
+            break
+    print("Na imię masz")
+    print(imie)
+    time.sleep(1)
+    print("")
+    print("Urodziłeś się w:",rok-wiek_int,"roku")
+    time.sleep(1.4)
+    print("")
+    print("Mieszkasz na:")
+    print(dom)
+    time.sleep(1.6)
+else:
+    print("error")
