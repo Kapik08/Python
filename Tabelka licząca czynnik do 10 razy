@@ -1,3 +1,4 @@
-a=int(input("wprowadz liczbę która będzie mnożona 10 razy"))
-for i in range(1,11):
+x=int(input("podaj pierwszy czynnik"))
+a=int(input(f"wprowadz liczbę która będzie się mnożyła {x} razy"))
+for i in range(1,x+1):
     print(i,"*",a,"=",i*a)
