@@ -1,0 +1,2 @@
+usrinput = int(input())
+print(bin(usrinput))
